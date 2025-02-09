@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(65, 65, 65);
+}
+
+.navbar{
+    background-color: rgb(23, 23, 23);
+    overflow: hidden;
+}
+.nav-items{
+    display: flex;
+    float: right;
+}
+li{
+    padding: 5px;
+    list-style-type: none;
+    margin-right: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+   
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: goldenrod;
+    transition: all 0.4s;
+    &:hover{
+        color: rgb(255, 255, 255);
+    }
+}
