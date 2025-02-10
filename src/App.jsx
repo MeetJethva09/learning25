@@ -9,13 +9,20 @@ import { ArrayDemo } from './Components/ArrayDemo'
 import { Employee } from './Components/Employee'
 import Players from './Components/Players'
 import { Cities } from './Components/cities'
+import { UseSDemo } from './Components/UseSDemo'
+import LoadingDemo from './Components/LoadingDemo'
+import { UserInput } from './Components/UserInput'
 
 // import './App.css'
 
 function App() {
   return (
-    <>
-  <Cities />
+  
+  <>
+  <UserInput />
+  {/* <LoadingDemo /> */}
+    {/* <UseSDemo /> */}
+  {/* <Cities /> */}
     {/* <Players /> */}
     {/* <Employee /> */}
       {/* <ArrayDemo /> */}
