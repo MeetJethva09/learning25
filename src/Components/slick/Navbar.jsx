@@ -21,6 +21,9 @@ export const Navbar = () => {
       <li class="nav-item" style={{fontWeight:"bold"}}>
         <Link class="nav-link" to="/form1">Form</Link>
       </li>
+      <li class="nav-item" style={{fontWeight:"bold"}}>
+        <Link class="nav-link" to="/term">T&C</Link>
+      </li>
      
     </ul>
   

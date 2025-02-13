@@ -19,6 +19,7 @@ import { SlickAbout } from './Components/slick/slickAbout'
 import Error from './Components/slick/Error'
 import { Play } from './Components/slick/Play'
 import Form1 from './Components/forms/Form1'
+import { Term } from './Components/forms/Term'
 
 // import './App.css'
 
@@ -34,7 +35,7 @@ function App() {
         <Route path='/*' element=<Error /> />
         <Route path='/play/:id' element=<Play/>/>
         <Route path='/form1' element=< Form1 />/>
-
+        <Route path='/term' element = <Term/>/>
     </Routes>
     </>
   )
