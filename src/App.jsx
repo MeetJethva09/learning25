@@ -20,6 +20,7 @@ import Error from './Components/slick/Error'
 import { Play } from './Components/slick/Play'
 import Form1 from './Components/forms/Form1'
 import { Term } from './Components/forms/Term'
+import { Apitest } from './Components/slick/Apitest'
 
 // import './App.css'
 
@@ -36,6 +37,7 @@ function App() {
         <Route path='/play/:id' element=<Play/>/>
         <Route path='/form1' element=< Form1 />/>
         <Route path='/term' element = <Term/>/>
+        <Route path='/apitest' element = <Apitest />/>
     </Routes>
     </>
   )
