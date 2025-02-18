@@ -21,6 +21,8 @@ import { Play } from './Components/slick/Play'
 import Form1 from './Components/forms/Form1'
 import { Term } from './Components/forms/Term'
 import { Apitest } from './Components/slick/Apitest'
+import { SearchMovie } from './Components/apis/SearchMovie'
+import { MovieDetail } from './Components/apis/MovieDetail'
 
 // import './App.css'
 
@@ -38,6 +40,8 @@ function App() {
         <Route path='/form1' element=< Form1 />/>
         <Route path='/term' element = <Term/>/>
         <Route path='/apitest' element = <Apitest />/>
+        <Route path='/smovie' element = <SearchMovie />/>
+        <Route path='/mdetail/:id' element= <MovieDetail /> />
     </Routes>
     </>
   )

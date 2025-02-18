@@ -1,0 +1,134 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+button{
+    border-radius: 10px;
+    background-color: transparent;
+    color: blueviolet;
+    padding: 4px;
+    border: 2px solid black;
+    box-shadow: 0px 0px 14px rgb(99, 97, 97);
+  
+}
+.first{
+    background-color: rgb(28, 28, 28);
+    color: white;
+    height: auto
+    overflow: hidden;
+    padding: 35px;
+    width: 100%;
+}
+.mname{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h3{
+    color: white;
+}
+img{
+    border-radius: 10px;
+    box-shadow: 0px 0px 26px black;
+}
+.sec{
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.vid{
+    width: 55%;
+    height: 450px;
+  
+}
+.smallboxes{
+    width: 180px;
+    height: 450px;
+    display: flex;
+   
+    gap: 10px;
+    flex-direction: column;
+}
+.fbox{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(69, 70, 70);
+    border-radius: 10px;
+}
+.sbox{
+    height: 220px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(69, 70, 70);
+    border-radius: 10px;
+}
+span{
+    border: 2px solid rgb(55, 53, 53);
+    padding: 8px;
+    border-radius: 10px;
+}
+.secCon{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 21px;
+    
+}
+#genre{
+    margin: 20px;
+   color: rgb(255, 255, 119);
+    border-radius: 10px;
+    padding: 5px;
+    width: auto;
+}
+#items{
+    margin-top: 25px;
+    font-weight: bold;
+    color: rgb(100, 182, 218);
+}
+.stream{
+    height: 180px;
+    width: 180px;
+    color: gold;
+    gap: 15px;
+    margin: 15px;
+    display: flex;
+  
+  
+    text-shadow: 0px 0px 3px gold;
+}
+.detail{
+    width: 65%;
+   
+   
+}
+.s1{
+    height: 70px;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.second{
+    height: auto;
+    padding: 35px;
+}
+#award{
+   border: 2px solid gold;
+   padding: 7px;
+   width: 65%;
+   font-weight: bold;
+   border-radius: 10px;
+   font-size: 1.2rem;
+
+}
